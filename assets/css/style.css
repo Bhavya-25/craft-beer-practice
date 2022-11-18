@@ -1,0 +1,484 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oswald', sans-serif;
+        /* font-family: 'Mulish', sans-serif; */
+        letter-spacing: 0.02em;
+    font-weight: 600;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+    }
+    li {
+        list-style: none;
+    }
+    img {
+        max-width: 100%;
+    }
+    .d-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container{
+        max-width:1265px ;
+        width: 100%;
+        margin: 0 auto;
+        padding:0 20px;
+    }
+    /*==== Common Css==== */
+    .btn {
+        background-color: #FAD018;
+        padding: 3px 34px;
+        font-size: 24px;
+        border: none;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+    /*==== Common Css ends==== */
+    /* ====header css==== */
+    .header {
+        padding-left: 96px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .nav_logo {
+        display: block;
+    }
+    .nav--btn {
+        font-size: 16px;
+        padding: 6px 11px;
+        border-radius: 3px;
+    }
+    .nav {
+        gap: 32px;
+    }
+    .login {
+        background-color: black;
+        padding: 27px 20px 25px 20px;
+        gap: 6px;
+        color: #ffff;
+    }
+    .nav_list {
+        gap: 24px;
+    }
+    .drop {
+        position: fixed;
+        top: 90px;
+        background: #E9E7E3;
+        max-width: 180px;
+        width: 100%;
+        padding: 20px 20px;
+        transform: translateY(-55%);
+        visibility: hidden;
+        transition: all 0.1s ease-in-out 0s, 0s linear 0.1s, linear 0.5s;
+        z-index: 1;
+    }
+    .nav--links:hover {
+        padding-bottom: 30px;
+        margin-bottom: -30px;
+    }
+    .nav_links:hover~.drop,
+    .drop:hover {
+        visibility: visible;
+        transform: translateY(0%);
+        transition-delay: 0.5s, 0s, 0.2s;
+        z-index: 1;
+    }
+    .drop_item {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #fbb232;
+    }
+    .drop_toggle,
+    .toggle {
+        display: none;
+    }
+    .dropdown_icon {
+        padding: 0 0 2px 6px;
+        transition: all .5s, transform .5s;
+    }
+    .hover:hover .dropdown_icon {
+        transition: all .5s, transform .5s;
+        transform: rotate(180deg);
+        padding: 0 0 2px 6px;
+    }
+    /* ====header end==== */
+    /* ====banner section start==== */
+    .bannerbg {
+            background-image: url('../images/bannerbg.png');
+            padding: 50px 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+    }
+    .banneritem {
+        max-width: 558px;
+        width: 100%;
+        margin-right: 100px;
+    }
+    .bannertext {
+        margin-bottom: 42px;
+        color: #ffff;
+        font-size: 72px;
+        line-height: 95px;
+    }
+    /* ====banner section end==== */
+/* ===================================== */
+/* =====main section start ==== */
+/* ====subwork===== */
+.subwork{
+    background-color: #EAF9FF;
+    padding: 83px 0 100px;
+}
+.subworkflex{
+    max-width: 963px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.headertext{
+    font-size: 48px;
+    line-height: 71.14px;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.subworkimg{
+    margin:  auto; 
+    display: block;
+}
+.subsec{
+display: grid;
+grid-template-rows: 1fr 1fr;
+}
+.subtextsec{
+    max-width: 239px;
+    width: 100%;
+    text-align: center;
+}
+.subheadertext{
+    font-size: 24px;
+    line-height: 32px;
+    margin:33px 0 12px;
+}
+.subptext{
+    font-family: 'Mulish';
+    font-size: 18px;
+    line-height: 22.59px;
+    margin-bottom: 63px;
+}
+.sub--btn{
+    font-size: 36px;
+    padding: 8px 40px;
+    line-height: 53.35px;
+    margin-bottom: 10px;
+}
+.subbutton{
+    text-align: center;
+}
+/* ======subwork end */
+/* ======giftbeersec */
+.giftbeer{
+    background-color: #000;
+    padding: 15px 50px;
+}
+.gift_beer_flex{
+    gap: 29px;
+    justify-content: center;
+}
+.beerheader{
+    color: #ffff;
+    font-size: 36px;
+    line-height: 53.35px;
+    font-weight: 400;
+}
+.beertext{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Mulish';
+max-width: 272px;
+width: 100%;
+}
+/* ======giftbeersec end */
+/* ====subboxes sec start */
+.subboxes{
+    background: #E5E5E5;
+    padding: 98px 50px 71px;
+}
+.sub--box{
+    justify-content: center;
+    gap: 16px;
+}
+.subbox{
+    padding: 31px 18px 51px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    margin: 10px auto;
+    max-width: 294px;
+    width: 100%;
+}
+.subboxtext{
+    font-size: 36px;
+    line-height: 53.35px;
+    border-bottom: 3px solid #C4C4C4;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.subbox img{
+    margin-bottom: 22px;
+}
+.needbeer{
+    gap: 19px;
+}
+.neerbeer img{
+    order: 1;
+}
+.beerflex{
+    justify-content: center;
+    gap: 60px;
+     border: 2px dotted;
+    padding: 12px 53px;
+    margin-top: 47px;
+}
+.need--text{
+    color: #000;
+}
+.need--btn{
+    background-color: transparent;
+    border: 2px solid black;
+    line-height: 35.57px;
+}
+/* ====subboxes sec end */
+/* our warehouse sec start */
+.warehouse{
+    background-color: #40C6FF;
+}
+.text{
+  max-width: 552px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+.warehousetext{
+margin-bottom: 13px;
+text-align: unset;
+}
+.subdiscription{
+    font-family: 'Mulish';
+    font-size: 24px;
+line-height: 30.12px;
+margin-bottom: 20px;
+}
+/* ====our warehouse sec end==== */
+/* ==== signup btn section==== */
+.email input{
+    border: none;
+    outline: none;
+    padding: 10px 92px 10px 0;
+    font-family: 'Mulish';
+    line-height: 22.59px;
+    font-size: 18px;
+}
+.email{
+display: flex;
+gap: 11px;
+}
+.beerdrop{
+    justify-content: center;
+    gap: 73px;
+}
+/* ==== signup btn section end==== */
+/* ==== beer king section start==== */
+.beerkingbg{
+    background-image: url(../images/mikebg.png);
+    padding: 100px 100px;
+}
+.beerking_box{
+    background: #FFFFFF;
+margin: 0 auto;
+}
+.kingtext{
+    color: #fff;
+}
+/* ====beer king section end==== */
+/* ====coverd section start==== */
+.coverd{
+    background: #EAF9FF;
+    padding: 63px 91px ;
+}
+.coverdtext{
+    max-width: 439px;
+    display: inline-block;
+}
+.covered--text{
+    text-align: unset;
+    margin-bottom: 28px;
+}
+.coverd--flex{
+    flex-wrap: wrap;
+    gap: 55px;
+}
+/* ====coverd section end==== */
+/* ====download app section start==== */
+.downloadapp{
+    background: #40C6FF;
+}
+/* ====download app section end==== */
+    /* ==toggle responsive design== */
+    @media screen and (max-width:1270px) {
+        .header {
+            padding: 10px 30px;
+        }
+        .nav_logo {
+            max-width: 211px;
+            width: 100%;
+        }
+        .nav_list,
+        .nav {
+            gap: 15px;
+        }
+        .toggle {
+            display: inline-block;
+        }
+        .nav {
+            position: fixed;
+            top: 58px;
+            padding: 30px 20px 100px;
+            height: 100%;
+            right: 0;
+            transform: translateX(100%);
+            flex-direction: column;
+            max-width: 250px;
+            width: 100%;
+            background-color: #E9E7E3;
+            transition: all 0.9s cubic-bezier(.71, 0, .33, 1.56);
+            overflow-y: scroll;
+        }
+        .nav.active {
+            transform: translateX(0);
+        }
+        .nav_list {
+            flex-direction: column;
+        }
+        .nav_links {
+            border-bottom: 1px solid #fbb232;
+            padding: 10px;
+            display: block;
+        }
+        .login {
+            padding: 20px 15px;
+            border-radius: 5px;
+            width: 100%;
+        }
+    }
+    /* ========responsive design ============== */
+    /* ===banner===== */
+    @media screen and (max-width:991px) {
+        .btn{
+            text-align: center;
+        }
+    .bannertext{
+        font-size: 52px;
+        line-height: 66px;
+    }
+    .banneritem{
+        max-width: 400px;
+        width: 100%;
+        margin: auto;
+    }
+    .subworkflex{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .gift_beer_flex{
+        flex-wrap: wrap;
+    }
+    .beerflex{
+        flex-wrap: wrap;
+            }
+            .ourwarehouse{
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .text{
+                text-align: center;
+                max-width: 358px;
+                padding: 60px 0 72px;
+            }
+            .email{
+            flex-direction: column;  
+            }
+            .beerdrop{
+                flex-wrap: wrap;
+                text-align: center
+                }
+                .coverd--flex{
+                    flex-direction: column-reverse;
+                }
+}
+    @media screen and (max-width:768px) {
+    .bannerbg{
+            background-image: url(../images/banner_res.png);
+            background-size: cover;
+            background-position: center;
+            }
+            .banner1{
+                flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+    }
+     .needbeer{
+        flex-direction: column;
+    }
+    .beerflex{
+        gap: 10px;
+        padding: 25px 37px;
+    }
+    .need--text{
+        text-align: center;
+    }
+    .headertext{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .beerkingbg{
+        padding: 100px 60px;
+    }
+}
+@media screen and (max-width:480px) {
+    .banneritem{
+        max-width: 261px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto 30px;
+    }
+    .SUBSCRIBE{
+        display: block;
+        margin: auto;
+    }
+    .giftbeer{
+        padding: 39px 45px;
+    }
+    .beerheader{
+        text-align: center;
+        max-width: 194px;
+    }
+    .gift_beer{
+       flex-direction: column-reverse;
+    }
+    .signupsec{
+        padding: 80px 30px;
+    }
+    .signupheader{
+        text-align: center;
+        max-width: 339px;
+    }
+    }

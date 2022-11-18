@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craft Beer King</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&family=Oswald:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <!-- ====header start==== -->
+    <header class="header d-flex">
+        <a href="#"><img class="nav_logo" src="assets/icons/craftkinglogo.png" alt="logo"></a>
+        <!-- nav bar-->
+        <nav class="nav d-flex">
+            <ul class="nav_list d-flex">
+                <li class="dropdown_item">
+                    <div class="hover">
+                        <a class="nav_links nav--links" onclick="togleDropdown(event)" href="#">SHOP BEER
+                            <img class="dropdown_icon" src="assets/icons/dropdown.png" alt="icon"></a>
+                        <ul class="drop">
+                            <li class="drop_item"><a class="drop_link" href="#"> BEER BOXES</a></li>
+                            <li class="drop_item"><a class="drop_link" href="#"> GIFTS CARDS</a></li>
+                        </ul>
+                    </div>
+                    <!-- <ul class="drop_toggle">
+                            <li class="drop_Item"><a class="drop_link" href="#"> BEER BOXES</a></li>
+                            <li class="drop_Item"><a class="drop_link" href="#"> GIFTS CARDS</a></li>
+                        </ul> -->
+                </li>
+                <li>
+                    <div class="hover">
+                        <a class="nav_links nav--links" onclick="togleDropdown(event)" href="#">GIFT BOXES<img
+                                class="dropdown_icon" src="assets/icons/dropdown.png" alt="icon"></a>
+                        <ul class="drop">
+                            <li class="drop_item"><a class="drop_link" href="#"> BEER BOXES</a></li>
+                            <li class="drop_item"><a class="drop_link" href="#"> GIFTS CARDS</a></li>
+                        </ul>
+                    </div>
+                    <!-- <ul class="drop_toggle">
+                            <li class="drop_Item"><a class="drop_link" href="#"> BEER BOXES</a></li>
+                            <li class="drop_Item"><a class="drop_link" href="#"> GIFTS CARDS</a></li>
+                        </ul> -->
+                </li>
+                <li><a class="nav_links" href="#">LOCATIONS</a></li>
+                <li><a class="nav_links" href="#">CORPORATE EVENTS</a></li>
+            </ul>
+            <ul class="nav_list d-flex">
+                <li><a class="nav_links btn nav--btn" href="#">BEER SUBSCRIPTION</a></li>
+                <li><a href="#"><img class="nav_logo" src="assets/icons/cart.png" alt="icon"></a></li>
+            </ul>
+            <a href="#" class="login d-flex">
+                <span>
+                    <img class="nav_logo" src="assets/icons/loginlogo.png" alt="logo">
+                </span>
+                <span> LOGIN</span>
+            </a>
+        </nav>
+        <div class="toggle">
+            <img src="assets/icons/toggle.png" alt="icon">
+        </div>
+    </header>
+    <!-- ====header end==== -->
+    <!-- ====banner section==== -->
+    <section class="bannerbg">
+        <!-- <div class="container banner_content"> -->
+        <div class="banneritem">
+            <h2 class="bannertext">GET ALL THE BEER.
+                DELIVERD FREE.</h2>
+            <button class="btn SUBSCRIBE">SUBSCRIBE ></button>
+        </div>
+        </div>
+    </section>
+    <!-- ====banner section==== -->
+    <!-- =====main section==== -->
+    <main>
+        <!-- =====subwork section==== -->
+        <section class="subwork">
+            <!-- =====subwork header start==== -->
+            <h3 class="headertext">HOW CBK’s SUBSCRIPTIONS WORK</h3>
+            <!-- =====subwork header end==== -->
+            <!-- =====subwork flex sec start==== -->
+            <div class="d-flex subworkflex">
+                <div class="subsec ">
+                    <div>
+                    <img class="subworkimg" src="/assets/images/subwork1.png" alt="subimg">
+                    </div>
+                    <div class="subtextsec">
+                        <h3 class="subheadertext">SUBSCRIBE, STARTING
+                            AT ONLY $64.99/MONTH</h3>
+                        <p class="subptext">Choose your box based on
+                            your favorite beer style.</p>
+                    </div>
+                </div>
+                <div class="subsec ">
+                   <div>
+                    <img class="subworkimg" src="/assets/images/subwork2.png" alt="subimg">
+                    </div>
+                    <div class="subtextsec">
+                        <h3 class="subheadertext">WE GATHER A PERFECT
+                            SELECTION AND SHIP</h3>
+                        <p class="subptext">Based on your selection, we hand-pick the best beer.</p>
+                    </div>
+                </div>
+                <div class="subsec ">
+                    <div>
+                    <img class="subworkimg" src="/assets/images/subwork3.png" alt="subimg"></div>
+                    <div class="subtextsec">
+                        <h3 class="subheadertext">ENJOY YOUR NEW
+                            FAVORITE
+                             BEERS</h3>
+                        <p class="subptext">Share with friends or keep them to yourself, we won’t judge.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- =====subwork flex sec ends==== -->
+            <!-- =====subwork subscribe button==== -->
+            <div class="subbutton">
+                <a class="btn sub--btn" href="#">SUBSCRIBE ></a>
+                <p class="subptext">*2 Month Minimum Sign Up Required*</p>
+            </div>
+        </section>
+        <!-- =====subwork section end==== -->
+        <!-- =====gift beer section==== -->
+        <section class="giftbeer">
+            <!-- ====gift beer flex section start==== -->
+            <div class="d-flex gift_beer_flex">
+                <div class="gift_beer d-flex gift_beer_flex ">
+                    <h3 class="beerheader">GIVE THE GIFT OF BEER</h3>
+                    <img src="assets/icons/giftbox.svg" alt="giftbeerlogo">
+                </div>
+                <h3 class="beertext">SEND A GIFT BOX TO THE
+                    BEER LOVER IN YOUR LIFE</h3>
+                <a class="btn" href="#">GET STARTED</a>
+            </div>
+            <!-- ====gift beer flex section end==== -->
+        </section>
+        <!-- =====gift beer section end==== -->
+        <!-- ====subboxes sec start -->
+        <section class="subboxes">
+            <h3 class="headertext">BESTSELLING SUBSCRIPTION BOXES</h3>
+            <!-- ====-sub  boxes sliders start====  -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="subbox">
+                            <h3 class="subboxtext">HAZY IPAS</h3>
+                            <img clas="Subimg" src="assets/images/subbox1.png" alt="subimg">
+                            <a class="btn" href="#">SUBSCRIBE</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="subbox">
+                            <h3 class="subboxtext">IPAS</h3>
+                            <img clas="Subimg" src="assets/images/subbox2.png" alt="subimg">
+                            <a class="btn" href="#">SUBSCRIBE</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="subbox">
+                            <h3 class="subboxtext">MIXED STYLE</h3>
+                            <img clas="Subimg" src="assets/images/subbox3.png" alt="subimg">
+                            <a class="btn" href="#">SUBSCRIBE</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="subbox">
+                            <h3 class="subboxtext">SOURS</h3>
+                            <img clas="Subimg" src="assets/images/subbox4.png" alt="subimg">
+                            <a class="btn" href="#">SUBSCRIBE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <!-- ====-sub  boxes sliders end====  -->
+<!-- ====need beer start====-->
+            <div class="d-flex beerflex">
+                <div class="needbeer d-flex ">
+                    <img src="assets/icons/beerglass.svg" alt="beerglass">
+                    <h3 class="beerheader need--text">NEED BEER FOR A CORPORATE EVENT? WE CAN HELP!</h3>
+                </div>
+                <a class="btn need--btn" href="#">LEARN MORE</a>
+            </div>
+<!-- ====need beer end==== -->
+        </section>
+        <!-- ====subboxes sec start -->
+<!-- ====warehouse section  sart ==== -->
+        <section class="warehouse ">
+            <div class="ourwarehouse d-flex">
+                <img src="assets/images/warehouseimg.png" alt="warehouseimg">
+                <div class="text">
+                    <h3 class="headertext warehousetext">OUR WAREHOUSE IS 
+                        ALWAYS FULLY STOCKED</h3>
+                    <p class="subdiscription">Browse all the beers we have in stock from over 300 different breweries!</p>
+                <a class="btn" href="#">BROWSE BREWERIES</a>
+                </div>
+            </div>
+        </section>
+<!--====warehouse section  end ====--> 
+<!--====signupsection start====--> 
+<section class="giftbeer signupsec">
+    <div class="d-flex beerdrop">
+        <h3 class="beerheader signupheader">SIGN UP FOR EXCLUSIVE NEWS AND BEER DROPS!</h3>
+        <div class="signupbtn">
+            <form class="email"><input type="email" name="email" placeholder="Email Address">
+                <a class="btn" href="#">SIGN UP</a>
+            </form>
+        </div>
+    </div>
+</section>
+<!--====signupsection end ====--> 
+<!--====beerking section start====--> 
+<section class="beerkingbg">
+    <h3 class="headertext kingtext">PEOPLE LOVE CRAFT BEER KINGS</h3>
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="subbox beerking_box">
+                    <img src="assets/images/mikeimg1.png">
+                    <p class="subptext">“Lorem ipsum blah blah beer about beer ordering Lorem ipsum blah blah beer about
+                        beer ordering
+                        Lorem ipsum blah blah beer about.”</p>
+                    <h3 class="subheadertext">Mike C.</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="subbox beerking_box">
+                    <img src="assets/images/mikeimg2.png">
+                    <p class="subptext">“Lorem ipsum blah blah beer about beer ordering Lorem ipsum blah blah beer about
+                        beer ordering
+                        Lorem ipsum blah blah beer about.”</p>
+                    <h3 class="subheadertext">Mike C.</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="subbox beerking_box ">
+                    <img src="assets/images/mikeimg3.png">
+                    <p class="subptext">“Lorem ipsum blah blah beer about beer ordering Lorem ipsum blah blah beer about
+                        beer ordering
+                        Lorem ipsum blah blah beer about.”</p>
+                    <h3 class="subheadertext">Mike C.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+<!--====beerking section end====-->
+<!--====covered section start====-->
+<section class="coverd ">
+    <div class="d-flex coverd--flex">
+        <div class="coverdtext">
+            <h3 class="headertext covered--text">WE GOT YOU COVERED</h3>
+            <p class="subdiscription">We want to make sure you love all the beers you got in your box. Hit us up and we’ll try to make it right as soon as we can!</p>
+            <a class="btn" href="#">CONTACT US</a>
+        </div>
+        <img src="assets/images/coverdimg.png" alt="coverdimg">
+    </div>
+</section> 
+<!--====covered section end====-->
+<!--====download app section start====-->
+<section class="downloadapp">
+    <div class="text">
+        <h3 class="headertext warehousetext">DOWNLOAD OUR APP</h3>
+        <p class="subdiscription">Grab our app and make your shopping easier!</p>
+        <img src="assets/images/playstore.png" alt="playstoreicon">
+    </div>
+</div>
+</section>
+<!--====download appsection end====-->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        let HeaderToggle = document.querySelector(".toggle");
+        let HeaderNavbar = document.querySelector(".nav");
+        HeaderToggle.addEventListener("click", () => {
+            HeaderNavbar.classList.toggle("active");
+        });
+        const togleDropdown = (event) => {
+            event.target.parentElement.classList.toggle("show");
+        };
+        var swiper = new Swiper(".mySwiper" , {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                918: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                1154: {
+                    slidesPerView: 4,
+                    spaceBetween: 10,
+                },
+            },
+        });
+        var swiper = new Swiper(".mySwiper1", {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                918: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                1154: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+            },
+        });
+    </script>
+</body>
+</html>
